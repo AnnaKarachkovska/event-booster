@@ -5,7 +5,7 @@
         <use href="./images/icons/icons.svg#icon-close"></use>
       </svg>
     </button>
-    <form class="signform__form" name="register-form">
+    <form class="logform__form" name="register-form">
       <a class="signform__logo" href="/src/index.html">
         <svg class="signform__logo-icon" width="150">
           <use href="./images/icons/icons.svg#icon-logo-name"></use>
@@ -14,14 +14,19 @@
       <div class="signform__group" role="group">
         <label class="signform__wrap">
           <span class="signform__label">Email</span>
-          <input class="signform__field" name="email" />
+          <input class="signform__field" name="email" type="email" required />
           <svg class="signform__icon" width="18" height="18">
             <use href="./images/icons/icons.svg#email"></use>
           </svg>
         </label>
         <label class="signform__wrap">
           <span class="signform__label">Password</span>
-          <input class="signform__field" name="password" />
+          <input
+            class="signform__field"
+            name="password"
+            type="password"
+            required
+          />
           <svg class="signform__icon" width="18" height="18">
             <use href="./images/icons/icons.svg#icon-lock"></use>
           </svg>

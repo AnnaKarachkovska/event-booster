@@ -2,11 +2,11 @@ const refs = {
   openLogformBtn: document.querySelectorAll('[data-logform-open]'),
   closeLogformBtn: document.querySelector('[data-logform-close]'),
   logformWimdow: document.querySelector('[data-logform]'),
-  logform: document.querySelector('.signform'),
-  submitBtn: document.querySelector('.signform__btn'),
+  logform: document.querySelector('.logform'),
+  logformForm: document.querySelector('.logform__form')
 }
 
-refs.submitBtn.addEventListener('click', onSubmit);
+refs.logformForm.addEventListener('submit', onSubmit);
 function onSubmit(ev) {
   ev.preventDefault();
   refs.logformWimdow.classList.add('is-hidden');

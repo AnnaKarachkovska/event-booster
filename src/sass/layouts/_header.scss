@@ -374,7 +374,6 @@
 }
 
 .header__btn-log {
-  display: none;
   background-color: transparent;
   transition: box-shadow $anim, color $anim, border-color $anim,
     text-shadow $anim;
@@ -388,7 +387,6 @@
 }
 
 .header__btn-sign {
-  display: none;
   background-color: rgba(255, 255, 255, 0.85);
   transition: box-shadow $anim, color $anim, background-color $anim,
     text-shadow $anim;
